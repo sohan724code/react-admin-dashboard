@@ -14,6 +14,7 @@ import Line from "./pages/Line/Line";
 import Faq from "./pages/Faq/Faq";
 import Calendar from "./pages/Calendar/Calendar";
 import Geography from "./pages/Geography/Geography";
+import SideBar from "./pages/global/SideBar";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -22,11 +23,12 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Box className="app">
+          <SideBar />
           <main className="content">
             <TopBar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/team" element={<Team />} />
+              {/* <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />
               <Route path="/form" element={<Form />} />
@@ -35,7 +37,7 @@ function App() {
               <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<Faq />} />
               <Route path="/calendar" element={<Calendar />} />
-              <Route path="/geography" element={<Geography />} />
+              <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
         </Box>
