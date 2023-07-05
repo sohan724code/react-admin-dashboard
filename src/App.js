@@ -11,9 +11,9 @@ import Form from "./pages/Form/Form";
 import Bar from "./pages/Bar/Bar";
 import Pie from "./pages/Pie/Pie";
 import Line from "./pages/Line/Line";
+import Geography from "./pages/Geography/Geography";
 import Faq from "./pages/Faq/Faq";
 import Calendar from "./pages/Calendar/Calendar";
-import Geography from "./pages/Geography/Geography";
 import SideBar from "./pages/global/SideBar";
 
 function App() {
